@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'couture';
+            src: url('fonts/couture-bld.otf') format('opentype'), url('fonts/couture-bldit.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'godofwar';
+            src: url('fonts/GODOFWAR.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+        */
+            
+        body {
+            font-family: couture, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: godofwar, Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>GOD OF WAR</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate mollitia commodi sint deleniti? Minima laudantium quidem cum doloremque officiis, dolorum ipsum veniam dolore molestias nobis nisi beatae modi nostrum quae.</p>
+</body>
+</html>
